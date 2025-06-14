@@ -35,6 +35,22 @@
             "preLaunchTask": "C/C++: g++.exe build active file lab2",
 
             
+        },
+                {
+            "name": "(gdb) Launch lab3",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\lab3.exe",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe",
+            "preLaunchTask": "C/C++: g++.exe build active file lab3",
+
+            
         }
 
     ]
