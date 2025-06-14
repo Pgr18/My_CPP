@@ -116,7 +116,7 @@ int main()
         while (!parseComplexExpression(expr, num1, op, num2))
         {
             std::cout << "Wrong expression" << std::endl;
-            std::cout << "Enter expression in format /digit/ /operation/ /digit/" << std::endl;
+            std::cout << "Enter expression in format /number/ /operation/ /number/" << std::endl;
             std::getline(std::cin, expr);
             remove_if(expr.begin(), expr.end(), isspace);
         }
