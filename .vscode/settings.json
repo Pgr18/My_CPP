@@ -62,6 +62,9 @@
         "numeric": "cpp",
         "random": "cpp",
         "fstream": "cpp",
-        "sstream": "cpp"
+        "sstream": "cpp",
+        "bitset": "cpp",
+        "map": "cpp",
+        "regex": "cpp"
     }
 }
